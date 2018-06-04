@@ -1,5 +1,17 @@
 @font-face {
 	font-family: Berthold Regular;
+	src: url(/fonts/Berthold/Regular/Berthold.eot);
+    src: url(/fonts/Berthold/Regular/Berthold.woff) format('woff'), 
+    url(/fonts/Berthold/Regular/Berthold.ttf) format('truetype'), 
+    url(/fonts/Berthold/Regular/Berthold.svg) format('svg'),
+    url(/fonts/Berthold/Regular/Berthold.woff2) format('woff2');
+    font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: Berthold Regular;
 	src: url(/fonts2/Berthold-Akzidenz-Grotesk-Regular.eot);
     src: url(/fonts2/Berthold-Akzidenz-Grotesk-Regular.woff) format('woff'), 
     url(/fonts2/Berthold-Akzidenz-Grotesk-Regular.ttf) format('truetype'), 
