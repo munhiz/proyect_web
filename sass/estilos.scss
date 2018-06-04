@@ -59,26 +59,46 @@ body{
 .intro-text{
     p{
         width: 80%;
-        padding-top: 50px;
-        font-size: 20px;
+        padding: 100px 10px;
+        
+        font-size: 18px;
         font-family: Berthold Light;
         line-height: 24px;
     }
 }
-.menu-princ{
-    li{
-        display: inline;
+
+#header{
+    padding: 20px 10px;
+    position: fixed;
+    background: white;
+    width:100%;
+    .menu-princ{
+        li{
+            display: inline;
+        }
+    }
+
+    .container-nav{
+        display:  flex;
+        justify-content: space-between;
+        ul{
+            display:none;
+        }
+        h1{
+            font-size: 20px;
+            font-family: Berthold Light;
+        }
+        
+        p{
+            padding: 18px, 10px;
+            font-size: 18px;
+            font-family: Berthold Light;
+            
+        }
+        
     }
 }
 
-.container-nav{
-    display:  flex;
-    justify-content: space-between;
-    padding:10px,20px;
-    ul{
-        display:none;
-    }
-}
 
 .menu-mob{
    display: flex;
@@ -116,6 +136,9 @@ body{
        display:none;
    }
     
+}
+#portfolio{
+    padding-left: 10px;
 }
 .container-contact{
     margin-bottom: 40px;
