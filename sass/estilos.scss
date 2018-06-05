@@ -51,8 +51,11 @@
     font-weight: normal;
 	font-style: normal;
 }
-
+html{
+    width: 100%;
+}
 body{
+    width: 100%;
     font-family: Berthold Regular !important;
 }
 
@@ -68,7 +71,8 @@ body{
 }
 
 #header{
-    padding: 20px 10px;
+    width:100%;
+    padding: 20px 0px;
     position: fixed;
     background: white;
     width:100%;
@@ -85,16 +89,23 @@ body{
             display:none;
         }
         h1{
+            
             font-size: 20px;
             font-family: Berthold Light;
         }
-        
-        p{
-            padding: 18px, 10px;
-            font-size: 18px;
-            font-family: Berthold Light;
+        article{
+            width: 100%;
+            text-align: right;
+
+            p{
             
+                font-size: 18px;
+                font-family: Berthold Light;
+                
+            }
+
         }
+        
         
     }
 }

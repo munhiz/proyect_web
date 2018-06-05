@@ -28,7 +28,11 @@
   src: url(/fonts/Berthold/Bold/Berthold_B.woff) format("woff"), url(/fonts/Berthold/Bold/Berthold_B.ttf) format("truetype"), url(/fonts/Berthold/Bold/Berthold_B.svg) format("svg"), url(/fonts/Berthold/Bold/Berthold_B.woff2) format("woff2");
   font-weight: normal;
   font-style: normal; }
+html {
+  width: 100%; }
+
 body {
+  width: 100%;
   font-family: Berthold Regular !important; }
 
 .intro-text p {
@@ -39,7 +43,8 @@ body {
   line-height: 24px; }
 
 #header {
-  padding: 20px 10px;
+  width: 100%;
+  padding: 20px 0px;
   position: fixed;
   background: white;
   width: 100%; }
@@ -53,10 +58,12 @@ body {
     #header .container-nav h1 {
       font-size: 20px;
       font-family: Berthold Light; }
-    #header .container-nav p {
-      padding: 18px, 10px;
-      font-size: 18px;
-      font-family: Berthold Light; }
+    #header .container-nav article {
+      width: 100%;
+      text-align: right; }
+      #header .container-nav article p {
+        font-size: 18px;
+        font-family: Berthold Light; }
 
 .menu-mob {
   display: flex;
