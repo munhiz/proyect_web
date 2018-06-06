@@ -1,53 +1,57 @@
 @font-face {
-	font-family: Berthold Regular;
-	src: url(/fonts2/Berthold-Akzidenz-Grotesk-Regular.eot);
-    src: url(/fonts2/Berthold-Akzidenz-Grotesk-Regular.woff) format('woff'), 
-    url(/fonts2/Berthold-Akzidenz-Grotesk-Regular.ttf) format('truetype'), 
-    url(/fonts2/Berthold-Akzidenz-Grotesk-Regular.svg) format('svg'),
-    url(/fonts2/Berthold-Akzidenz-Grotesk-Regular.woff2) format('woff2');
+  font-family: Berthold Regular;
+  src: url(/fonts/Berthold_akzidenz/Regular/Berthold-Regular.eot);
+  src: url(/fonts/Berthold_akzidenz/Regular/Berthold-Regular.woff) format("woff"), url(/fonts/Berthold_akzidenz/Regular/Berthold-Regular.ttf) format("truetype"), url(/fonts/Berthold_akzidenz/Regular/Berthold-Regular.svg) format("svg"), url(/fonts/Berthold_akzidenz/Regular/Berthold-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Berthold Light;
+  src: url(/fonts/Berthold_akzidenz/Light/Berthold-Light.eot);
+  src: url(/fonts/Berthold_akzidenz/Light/Berthold-Light.woff) format("woff"), url(/fonts/Berthold_akzidenz/Light/Berthold-Light.ttf) format("truetype"), url(/fonts/Berthold_akzidenz/Light/Berthold-Light.svg) format("svg"), url(/fonts/Berthold_akzidenz/Light/Berthold-Light.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  box-sizing: border-box; }
 
-	font-weight: normal;
-	font-style: normal;
-}
+html {
+  width: 100%;
+  font-family: berthold Regular; }
 
+body {
+  width: 100%; }
 
-
-.tittle {
-    font-family: Berthold Regular;
-    font-weight: 100;
-    font-size: 16px;
-}
-
-.container-nav{
+#header {
+  padding: 10px 10px;
+  background: white;
+  position: fixed;
+  width: 100%; }
+  #header .container-nav {
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: space-between; }
+    #header .container-nav .menu-princ {
+      display: flex; }
+      #header .container-nav .menu-princ li {
+        justify-content: space-between; }
+  #header .text-copy {
+    font-size: 14px; }
 
-.menu-princ li{
-    display: inline;
-   
-}
-.menu-princ{
-    display:none;
-}
+.intro-text {
+  width: 75%;
+  line-height: 22px;
+  padding: 80px 0px 60px 10px; }
 
-.intro-text{
-    width: 75%;
-}
+#portfolio {
+  padding-left: 10px; }
+  #portfolio .work div {
+    padding: 10px 0 20px 0; }
+    #portfolio .work div h2 {
+      font-size: 16px;
+      padding-bottom: 5px; }
+    #portfolio .work div p {
+      font-size: 14px;
+      color: #2c2c2c; }
 
-.copy{
-    display: none;
-}
-.menu-2 li{
-    display: inline;
-}
+.copy {
+  display: none; }
 
-.menu-mob{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:white;
-    color:black;
-    text-align: right;
-}
+/*# sourceMappingURL=style.css.map */
