@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +9,62 @@
     <link rel="stylesheet" href="stylesheet/style.css">
     <title>Munhiz</title>
 </head>
+
 <body>
     <header id="header">
-       <nav class="container-nav ">
-           <div>
-               <h1 class="tittle">Munhiz</h1>
-           </div>
-           <div>
-                <img src="img/add.png" alt="mas">
+        <nav class="container-nav ">
+            <div>
+                <h1 class="tittle">Munhiz</h1>
             </div>
-           <ul class="menu-princ">
-               <li><a href="">about</a></li>
-               <li><a href="">work</a></li>
-               <li><a href="">contact</a></li>
-           </ul>
-       </nav>
+            <div>
+                <img id="id-1" onclick="openNav()" src="img/add.png" alt="mas">
+            </div>
+            <ul class="menu-princ">
+                <li>
+                    <a href="">about</a>
+                </li>
+                <li>
+                    <a href="">work</a>
+                </li>
+                <li>
+                    <a href="">contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">work</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </div>
     </header>
     <main>
         <section class="intro-text">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae vel omnis dolor explicabo eaque? Corporis veritatis nostrum nobis! Eaque nihil voluptates veniam quisquam quo nulla quidem nostrum ab perspiciatis. Exercitationem ut praesentium illum minima officia aut fugiat magni, commodi quis deleniti, quas, voluptatibus repudiandae maxime ratione optio atque non possimus consequuntur laborum? Quis inventore assumenda, quam consequatur provident perspiciatis, ex deleniti, eos esse similique accusamus praesentium. Similique, obcaecati, quas id nostrum non modi amet cumque esse distinctio provident nesciunt assumenda cupiditate veritatis molestias, ea molestiae beatae. Commodi cupiditate fugiat quo error libero quisquam. Harum, tempore. Nam totam cumque quas?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae vel omnis dolor explicabo eaque?
+                Corporis veritatis nostrum nobis! Eaque nihil voluptates veniam quisquam quo nulla quidem nostrum ab perspiciatis.
+                Exercitationem ut praesentium illum minima officia aut fugiat magni, commodi quis deleniti, quas, voluptatibus
+                repudiandae maxime ratione optio atque non possimus consequuntur laborum? Quis inventore assumenda, quam
+                consequatur provident perspiciatis, ex deleniti, eos esse similique accusamus praesentium. Similique, obcaecati,
+                quas id nostrum non modi amet cumque esse distinctio provident nesciunt assumenda cupiditate veritatis molestias,
+                ea molestiae beatae. Commodi cupiditate fugiat quo error libero quisquam. Harum, tempore. Nam totam cumque
+                quas?</p>
         </section>
         <section id="portfolio">
-            <article class="work">   
+            <article class="work">
                 <img src="img/Placeholder.jpg" alt="img_proof">
                 <div>
                     <h2>Titulo Proyecto</h2>
                     <p>Muestra Categorias</p>
                 </div>
             </article>
-            <article class="work">   
+            <article class="work">
                 <img src="img/Placeholder.jpg" alt="img_proof">
                 <div>
                     <h2>Titulo Proyecto</h2>
@@ -53,7 +81,11 @@
             <span>Twitter</span>
         </section>
         <section class="contact-footer">
-            <p>Si quieres trabajar con nosotros escribenos a<a href=""><span>info@munhiz.com</span></a></p>
+            <p>Si quieres trabajar con nosotros escribenos a
+                <a href="">
+                    <span>info@munhiz.com</span>
+                </a>
+            </p>
         </section>
         <section class="bt-up">
             <article>
@@ -62,8 +94,10 @@
             </article>
         </section>
         <article class="copy">
-                <p>Copyright 2018</p>
+            <p>Copyright 2018</p>
         </article>
+        <script src="js/functions.js"></script>
     </footer>
 </body>
+
 </html>
